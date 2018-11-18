@@ -1,2 +1,6 @@
-# ESIII_ObserverPattern
-Trabalho 02  - Engenharia de Software III - Padrões de Desenvolvimento
+### Trabalho 02  - Engenharia de Software III
+# Padrões de Desenvolvimento -> Observer
+
+Integrantes: Yuri Bento, Patrick Porto
+
+(conteúdo na wiki)
