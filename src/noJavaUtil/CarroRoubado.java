@@ -31,6 +31,8 @@ public class CarroRoubado {
 
     private void atualizarEstado() {
         for (Observador observador : observadores) {
+            // Notifica os observadores chamando a função "handleUpdate" em todos os
+            // objetos que foram adicionados a lista de observadores atraves do metodo "addObservador"
             observador.handleUpdate(this, acao);
         }
     }

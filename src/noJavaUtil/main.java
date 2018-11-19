@@ -9,9 +9,12 @@ public class main {
         
         carroRoubado.addObservador(carroPolicia);
         
-        carroRoubado.virarDireita();
+        carroRoubado.virarDireita(); 
+        //SAÍDA: "CarroPolicia: Carro roubado virou a direta"
         carroRoubado.virarEsquerda();
+        //SAÍDA: "CarroPolicia: Carro roubado virou a esquerda"
         carroRoubado.parar();
+        //SAÍDA: "CarroPolicia: Carro roubado parou"
         
     }
     

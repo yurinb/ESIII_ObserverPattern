@@ -24,8 +24,11 @@ public class CarroRoubado extends Observable {
     }
 
     private void atualizaEstado() {
+        // Seta a flag isChanged = true (usado para verificar se o estado da instancia foi alterado)
         this.setChanged();
-        this.notifyObservers(acao);
+        // Notifica os observadores chamando a função "update" em todos os
+        // objetos que foram adicionados a lista de observers atraves do metodo "addObserver"
+        this.notifyObservers(acao); 
     }
-
+    
 }
